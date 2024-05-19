@@ -1,0 +1,149 @@
+/* form design  */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2e9e4;
+  margin: 0;
+  padding: 0;
+
+}
+
+#rs{
+  margin-bottom: 50px;
+  text-decoration:underline;
+}
+
+
+#form {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(105, 105, 105);
+  background-color: #c9ada7;
+  color: rgb(0, 0, 0);
+}
+
+h1, h2, h3, h4 {
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #22223b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4a4e69;
+}
+
+/* Education and Experience Sections */
+.education-section,
+.experience-section {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Skills Section */
+.skill {
+  margin-bottom: 10px;
+}
+
+/* Photo Upload */
+#photo {
+  margin-bottom: 10px;
+}
+
+/* Resume Preview */
+#resume-preview {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+/* resume designing */
+
+.col-md-4 {
+    background-color:#3e5c76 ;
+  
+  }
+  
+  .col-md-8 {
+    background-color: #f0ebd8;
+  }
+  
+  #summary h2 {
+    margin-top: 15px;
+  }
+  
+  #photo {
+    margin-top: 15px;
+  }
+  #tphotoUpload{
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    
+  }
+  #tprofile{
+    padding-left: 40px;
+  }
+  #skills{
+    padding-left: 40px;
+  }
+  
+  .col-md-8{
+    padding-top: 50px;
+  }
+
+
+
+  #tphotoUpload{
+    padding-top: 10px;
+    border-radius: 50%;
+    
+  }
+
+  #cv-templet{
+    display: none;
+    font-size: medium;
+  } 
+  
+
+  #tname{
+    text-decoration: underline 2px black;
+  }
+
+
+  #cv-templet h2{
+    text-decoration: underline 2px black;
+  }
